@@ -13,7 +13,6 @@ class Users extends Seeder
 		    ['name' => 'Nada Ahmed'],
 		    ['name' => 'Jasmine Mahmoud']
 	    ];
-
 	    // Using Query Builder
 	    $this->db->table('users')->insertBatch($data);
     }

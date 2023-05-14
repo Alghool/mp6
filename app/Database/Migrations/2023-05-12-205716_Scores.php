@@ -25,6 +25,14 @@ class Scores extends Migration
 			    'constraint'     => 5,
 			    'unsigned'       => true
 		    ],
+		    'day' => [
+			    'type'       => 'VARCHAR',
+			    'constraint' => '250',
+		    ],
+		    'date' => [
+			    'type'       => 'VARCHAR',
+			    'constraint' => '250',
+		    ],
 		    'wakeup' => [
 			    'type'           => 'INT',
 			    'constraint'     => 5,
