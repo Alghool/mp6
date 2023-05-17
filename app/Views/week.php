@@ -110,14 +110,15 @@
 
 
 	<footer>
-<!--		<script>-->
-<!--			$('.btn').onclick(function(){-->
-<!--				let myValue = $this.closest('td').find('.repeat').text();-->
-<!--				myValue++;-->
-<!--				console.log(myValue);-->
-<!--				$this.closest('td').find('.repeat').text(myValue);-->
-<!--			})-->
-<!--		</script>-->
+		<script>
+			$('.btn').on("click", function(){
+				let td = this.closest('td')
+				myValue = $(td).find('.repeat').text();
+				myValue++;
+				console.log(myValue);
+				$(td).find('.repeat').text(myValue);
+			})
+		</script>
 	</footer>
 
 

@@ -11,27 +11,27 @@
 </head>
 <body>
 
-<!-- HEADER: MENU + HEROE SECTION -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-	<div class="container-fluid">
-		<a class="navbar-brand" href="#">Local scoring system</a>
-	</div>
-</nav>
+	<!-- HEADER: MENU + HEROE SECTION -->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Local scoring system</a>
+		</div>
+	</nav>
 
-<!-- CONTENT -->
-<div class="content">
-	<div class="container-fluid">
-		<div class="row">
-			<h3>select the week to view</h3>
-			<a href="/mp6/public/home/week/1">Week 1</a>
+	<!-- CONTENT -->
+	<div class="content">
+		<div class="container-fluid">
+			<div class="row">
+				<h3>select the week to view</h3>
+				<a href="/mp6/public/home/week/1">Week 1</a>
+			</div>
 		</div>
 	</div>
-</div>
 
 
-<footer>
+	<footer>
 
-</footer>
+	</footer>
 
 
 
