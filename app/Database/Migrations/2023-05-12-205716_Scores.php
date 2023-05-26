@@ -102,6 +102,11 @@ class Scores extends Migration
 			    'type'           => 'INT',
 			    'constraint'     => 5,
 			    'unsigned'       => true
+		    ],
+		    'total' => [
+			    'type'           => 'INT',
+			    'constraint'     => 5,
+			    'unsigned'       => true
 		    ]
 	    ]);
 	    $this->forge->addKey('score_id', true);

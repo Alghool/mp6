@@ -10,6 +10,22 @@ class Home extends BaseController
 	    return $parser->render('home');
     }
 
+    public function addUser(){
+
+    }
+
+
+
+    public function addBonuses(){
+    	echo "hi";
+    }
+
+	public function addWeek(){
+
+	}
+
+
+
     public function week($weekNumber){
 
 	    $db      = \Config\Database::connect();
