@@ -1,0 +1,7 @@
+{% extends "layout/layout.nana" %}
+
+{% block content %}
+
+<h3>are you mahmoud alghool</h3>
+
+{% endblock %}

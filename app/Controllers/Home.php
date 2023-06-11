@@ -6,8 +6,10 @@ class Home extends BaseController
 {
     public function index()
     {
-	    $parser = \Config\Services::parser();
-	    return $parser->render('home');
+//	    $parser = \Config\Services::parser();
+//	    return $parser->render('home');
+	    $twig = new \Daycry\Twig\Twig();
+	    $twig->display( 'home', [] );
     }
 
     public function addUser(){
